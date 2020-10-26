@@ -1,0 +1,87 @@
+.logo img {
+ width: 100%;
+}
+
+#navbar { 
+  flex-direction: column;
+   justify-content:center;
+}
+#navbar ul {
+   display: flex;
+   align-items: center;
+   
+} 
+
+.m-heading {
+   font-size: 1rem;
+   padding: 0rem 2rem 0rem;
+}
+
+.l-heading {
+   font-size: 2rem;
+}
+
+.lead {
+   font-size: 1rem;
+   margin-bottom: 1.5rem;
+}
+
+.py-1 { padding: 1rem 0;}
+.py-2 { padding: 1.5rem 0;}
+.py-3 { padding: 2rem 0;}
+
+
+.p-1 { padding: 1rem;}
+.p-2 { padding: 1.5rem;}
+.p-3 { padding: 2rem;}
+
+
+
+/* section : what we do */
+
+#what .items {
+   flex-direction: column;
+   grid-template-columns: 1fr;
+   align-items: center;
+}
+
+/* section :who we are*/
+#who {
+  flex-direction: column;
+}
+
+#who div {
+   flex: unset;
+}
+
+#who .who-img {
+   flex: unset;
+   height: 300px;
+   width: 100%;
+   align-items: center;
+}
+
+/* section contact */
+
+#contact {
+  flex-direction: column;
+   justify-content: center;
+   
+}
+
+#contact .map {
+ width: 100%;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+

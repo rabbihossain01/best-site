@@ -1,0 +1,15 @@
+/* section :who we are*/
+
+#who {
+    display: flex;
+  }
+  
+  #who div {
+     flex: unset;
+  }
+  
+  #who .who-img {
+     flex: unset;
+     width: 100%;
+     align-items: center;
+  }
